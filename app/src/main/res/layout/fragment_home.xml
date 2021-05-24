@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/viewpager_white"
+    tools:context="com.example.quiz.ui.fragments_viewpager.HistoryFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/quiz_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/history"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.cardview.widget.CardView
+            app:layout_constraintTop_toBottomOf="@id/quiz_title"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginStart="18sp"
+            android:layout_marginEnd="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+            <RelativeLayout
+                android:layout_marginStart="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/tv_result_category"
+                    android:text="Category: Mixed"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="14dp"
+                    android:id="@+id/tv_correct_answers"
+                    android:layout_below="@id/tv_result_category"
+                    android:text="Correct answers: 8 / 10" />
+                <TextView
+                    android:id="@+id/tv_result_difficulty"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_below="@id/tv_correct_answers"
+                    android:text="Difficulty: All"/>
+                <TextView
+                    android:layout_below="@id/tv_result_difficulty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="9sp"
+                    android:layout_marginEnd="18sp"
+                    android:layout_alignParentEnd="true"
+                    android:text="12 may 2019 20:32"
+                    tools:ignore="SmallSp" />
+                <TextView
+                    android:layout_marginTop="14dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="18sp"
+                    android:textSize="4sp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/ic_linear"
+                    tools:ignore="RelativeOverlap,SmallSp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+
+
+
+
+
+
+

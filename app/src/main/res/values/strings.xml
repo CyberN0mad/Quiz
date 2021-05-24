@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">QUIZ</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="questions_amount">Questions amount: </string>
+    <string name="start">start</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="category">Category</string>
+    <string name="quiz_app">Quiz</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string-array name="category">
+        <item>All</item>
+        <item>General Knowledge</item>
+        <item>Entertainment: Books</item>
+        <item>Entertainment: Film</item>
+        <item>Entertainment: Music</item>
+        <item>Entertainment: Musicals Theatres</item>
+        <item>Entertainment: Television</item>
+        <item>Entertainment: Video Games</item>
+        <item>Entertainment: Board Games</item>
+        <item>Science Nature</item>
+        <item>Science: Computers</item>
+        <item>Science: Mathematics</item>
+        <item>Mythology</item>
+        <item>Sports</item>
+        <item>Geography</item>
+        <item>History</item>
+        <item>Politics</item>
+        <item>Art</item>
+        <item>Celebrities</item>
+        <item>Animals</item>
+    </string-array>
+    <string-array name="All">
+        <item>All</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>
